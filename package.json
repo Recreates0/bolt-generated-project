@@ -1,0 +1,39 @@
+{
+  "name": "advanced-trading-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "@mantine/core": "^6.0.17",
+    "@mantine/hooks": "^6.0.17",
+    "@mantine/notifications": "^6.0.17",
+    "@emotion/react": "^11.11.1",
+    "i18next": "^23.4.4",
+    "react-i18next": "^13.1.2",
+    "recharts": "^2.7.3",
+    "lightweight-charts": "^4.0.1",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5"
+  }
+}
